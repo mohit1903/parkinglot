@@ -24,7 +24,7 @@ public class ParkingLot {
 	private static ParkingLot parkingLotProcessor = null;
 
 	// Making the class singleton
-	private ParkingLot(int noOfParkingSlots) {
+	public ParkingLot(int noOfParkingSlots) {
 		this.noOfParkingSlots = noOfParkingSlots;
 		availableSlotList = new ArrayList<Integer>();
 
